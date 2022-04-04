@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react"
 
-const useReview=()=>{
+const useReview = () => {
     const [reviews, setReviews] = useState([])
-    useEffect(()=>{
+    useEffect(() => {
         fetch('testimonials.json')
-        .then(res=>res.json())
-        .then(data=>setReviews(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
     return [reviews, setReviews]
 }
 

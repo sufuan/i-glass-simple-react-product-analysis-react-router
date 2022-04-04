@@ -13,7 +13,7 @@ const Header = () => {
                 <NavLink to='/review' className={({ isActive }) => isActive ? 'text-emerald-400' : 'black'}>Review</NavLink>
 
                 <NavLink to='/dashboard' className={({ isActive }) => isActive ? 'text-emerald-400' : 'black'}>Dashboard</NavLink>
-                
+
                 <NavLink to='/blog' className={({ isActive }) => isActive ? 'text-emerald-400' : 'black'}>Blog</NavLink>
 
                 <NavLink to='/about' className={({ isActive }) => isActive ? 'text-emerald-400' : 'black'}>About</NavLink>

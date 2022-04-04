@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import HomePageReview from '../HomepageReview/HomePageReview'
 import useReview from '../hooks/useReview'
@@ -32,7 +32,7 @@ const Homepage = () => {
       </section>
       <h1 className='text-3xl text-center mb-10'>User Ratings Are A Confirmation <br />
         Of Our Quality.</h1>
-      <div className="container  mx-auto grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center">
+      <div className="container   mx-auto grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center">
         {reviews?.slice(0, 3).map(review => <HomePageReview
           review={review}
           key={review.id}
@@ -41,11 +41,11 @@ const Homepage = () => {
 
       </div>
 
-     <div className="flex items-center justify-center my-6">
-     <Link className=' inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg' to='/review'>See More Review</Link>
-     </div>
-     
-    
+      <div className="flex items-center justify-center my-6">
+        <Link className=' inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg' to='/review'>See More Review</Link>
+      </div>
+
+
 
     </div>
 
