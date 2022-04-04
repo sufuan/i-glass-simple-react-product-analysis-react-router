@@ -1,7 +1,9 @@
 # i-glass 
 
-## [view live site](https://link-url-here.org)
+## [view live site](https://resilient-yeot-e242b2.netlify.app/)
 
-* Item 1
-* Item 2
-* Item 3
+* stunning homepage
+* review page 
+* blog page
+* product analyses report 
+* build with tailwind
