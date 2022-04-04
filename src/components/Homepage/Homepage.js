@@ -39,7 +39,7 @@ Of Our Quality.</h1>
         ></HomePageReview>)}
 
 
-        <Link className='flex sm:inline-flex justify-center items-center bg-gradient-to-tr from-indigo-500 to-purple-400 hover:from-indigo-600 hover:to-purple-500 active:from-indigo-700 active:to-purple-600 focus-visible:ring ring-indigo-300 text-white font-semibold text-center rounded-md outline-none transition duration-100 px-5 py-2 content-center' to='/review'>See More Review</Link>
+        <Link className='inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg' to='/review'>See More Review</Link>
 
 
       </div>
