@@ -13,7 +13,7 @@ const ReviewDetails = (props) => {
                     </div>
                     <div className="flex flex-col justify-end">
                     <p className='text-gray-400 text-xs'>{review}</p>
-                         <p className='text-gray-600 text-medium mt-1 ' >Ratings: {ratings}/5</p>
+                         <p className='text-gray-600 text-sm mt-1 ' >Ratings: {ratings}/5</p>
                         <p className='text-gray-600 text-medium'>{name}</p>
                     </div>
                 </div>
