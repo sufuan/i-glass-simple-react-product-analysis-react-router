@@ -1,6 +1,6 @@
 # i-glass 
 
-## [view live site](https://resilient-yeot-e242b2.netlify.app/)
+## [view live site](https://gregarious-banoffee-54e9b6.netlify.app/)
 
 * stunning homepage
 * review page 

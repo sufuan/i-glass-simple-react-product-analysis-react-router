@@ -11,7 +11,7 @@ const HomePageReview = (props) => {
                         <img className='h-16 w-16 mx-auto rounded-full object-cover' src={picture} alt="profile" />
                     </div>
                     <div className="flex flex-col justify-end">
-                        <p className='text-gray-600 text-xs'>{review}</p>
+                        <p className='text-gray-600 text-sm'>{review}</p>
                         <p className='text-gray-600  mt-1 text-sm' >Ratings: {ratings}/5</p>
                         <p className='text-gray-600 text-medium'>{name}</p>
                     </div>
