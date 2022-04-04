@@ -19,9 +19,9 @@ const Homepage = () => {
             <p className='text-gray-600'>i 550-wireless</p>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The future of eye tracking. Understand natural visual attention
             </h1>
-            <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+            <p className="mb-8 leading-relaxed">Our newest product with improved audio and new styles,i-550 combines your headphones, prescription glasses and Alexa voice assistant into one.</p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Button</button>
+              <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Explore Now</button>
 
             </div>
           </div>
